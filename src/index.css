@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    /* font-family: 'Roboto'; */
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    background-color: #EEF0F5;
+    
+  }
+  ul,ol{
+    list-style: none;
+  }
+  a{
+    text-decoration: none;
+  }
+  
+  .container{
+    width: 1140px;
+    margin: 0 auto;
+  }
+  

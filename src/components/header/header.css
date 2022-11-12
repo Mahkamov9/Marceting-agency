@@ -1,0 +1,68 @@
+.header{
+    background-color: #EEF0F5;
+}
+.header-box{
+    text-align: center;
+}
+
+.header-subtitle{
+    padding-top: 40px;
+    color: #0a1530;
+    font-size: 80px;
+    font-family: 'Gilroy',Arial,sans-serif;
+    line-height: 1.1;
+    font-weight: 700;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+}
+
+
+
+.header-title{
+    margin-top: 45px;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Gilroy',Arial,sans-serif;
+    line-height: 1.25;
+    font-weight: 600;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+}
+
+
+
+.header-atom-list{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:  wrap;
+}
+
+.header-atom-item{
+    width: 357px;
+    height: 45px;
+    border-radius: 8px;
+    background-color: #fff;
+    margin: 50px 0px;
+}
+
+.header-atom-link{
+    text-align: center;
+    color: #0a1530;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.header-atom-link::before{
+    content: "";
+    display: block;
+    /* justify-content: ; */
+    background-repeat: no-repeat;
+    background-size: 35px;
+    background-image: url(../../assets/img/brands.png);
+    width: 35px;
+    height: 35px;
+    transform: translate(100% , 20%);
+
+}

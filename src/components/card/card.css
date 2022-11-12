@@ -1,0 +1,30 @@
+
+
+.card{
+    background-color: #fff;
+    width: 350px;
+    height: 400px;
+    text-align: left;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 20px 20px 20px rgb(203, 198, 198);
+}
+
+.card-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    margin: 40px;
+}
+
+.card-subtitle{
+    font-size: 30px;
+    color: #0a1530;
+}
+
+.card-title{
+    margin: 12px;
+    font-size: 20px;
+    color: #0a1530;
+}
+

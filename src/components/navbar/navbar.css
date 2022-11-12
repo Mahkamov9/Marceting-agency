@@ -1,0 +1,64 @@
+.navbar{
+    height: 70px;
+    background-color: #0a1530;
+}
+
+.nav-logo{
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.nav-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-list{
+    display: flex;
+}
+
+.nav-list{
+    text-align: center;
+    margin: 25px 0px;
+}
+
+.nav-item-text{
+    font-size: 16px;
+    margin: 15px 35px;
+    color: #fff;
+}
+
+.nav-contact{
+    margin: 25px 0px;
+}
+
+.nav-text1{
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'Gilroy',Arial,sans-serif;
+    font-weight: 500;
+    border-width: 1px;
+    border-radius: 5px;
+    background-position: center center;
+    border-style:  solid;
+    padding: 6px;
+    margin: 10px;
+    transition: background-color 0.2s
+}
+
+.nav-text2{
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'Gilroy',Arial,sans-serif;
+    line-height: 1.55;
+    font-weight: 500;
+    border-radius: 5px;
+    background-color: #289e6d;
+    /* background-position: center center; */
+    border-color: transparent;
+    border-style: solid;
+    padding: 5px;
+    transition: background-color 0.2s
+}
+

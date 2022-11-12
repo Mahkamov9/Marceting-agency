@@ -1,0 +1,49 @@
+.section-video{
+    width: 600px;
+    height: 400px;
+    border-radius: 15px;
+    box-shadow: 20px 20px 200px rgb(67, 59, 59);
+    margin-top: 80px;
+    margin-left: 280px;
+}
+
+.section-box{
+    text-align: center;
+    background-color: #fff; /*  asdadas*/
+     
+}
+
+.section-subtext{
+    font-size: 40px;
+    color: #0a1530;
+    margin-top: 100px;
+}
+
+.section-text{
+    font-size: 30px;
+    color: #0a1530;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.section-link{
+    border: 3px solid #0a1530;
+    background-color: #0a1530;
+    border-radius: 35px;
+    color: whitesmoke;
+    padding: 10px 30px;
+    font-size: 30px;
+}
+
+.section-link:hover{
+    color: #0a1530;
+    background-color: whitesmoke;
+    transition: 0.4s;
+}
+
+
+.section-card-box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
