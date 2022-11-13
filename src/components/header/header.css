@@ -6,7 +6,7 @@
 }
 
 .header-subtitle{
-    padding-top: 40px;
+    padding-top: 13`0px;
     color: #0a1530;
     font-size: 80px;
     font-family: 'Gilroy',Arial,sans-serif;
@@ -35,8 +35,8 @@
 
 .header-atom-list{
     display: flex;
-    justify-content: space-around;
-    flex-wrap:  wrap;
+    justify-content: center;
+    margin-top: 80px;
 }
 
 .header-atom-item{
@@ -44,25 +44,115 @@
     height: 45px;
     border-radius: 8px;
     background-color: #fff;
-    margin: 50px 0px;
+    margin: 0px 40px;
 }
 
-.header-atom-link{
+.header-atom-link1{
     text-align: center;
     color: #0a1530;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 600;
+    position: absolute;
+    transform: translate(-50% , -40%);
 }
 
-.header-atom-link::before{
+.header-atom-link1::before{
     content: "";
     display: block;
-    /* justify-content: ; */
     background-repeat: no-repeat;
     background-size: 35px;
-    background-image: url(../../assets/img/brands.png);
+    background-image: url(../../assets/img/ux.png);
     width: 35px;
     height: 35px;
-    transform: translate(100% , 20%);
+    transform: translate(-130% , 80%);
+
+}
+
+
+.header-atom-link2{
+    text-align: center;
+    color: #0a1530;
+    font-size: 14px;
+    font-weight: 600;
+    position: absolute;
+    transform: translate(-50% , -40%);
+}
+
+.header-atom-link2::before{
+    content: "";
+    display: block;
+    background-repeat: no-repeat;
+    background-size: 35px;
+    background-image: url(../../assets/img/social-media.png);
+    width: 35px;
+    height: 35px;
+    transform: translate(-130% , 80%);
+
+}
+
+
+
+.header-atom-link3{
+    text-align: center;
+    color: #0a1530;
+    font-size: 14px;
+    font-weight: 600;
+    position: absolute;
+    transform: translate(-50% , -40%);
+}
+
+.header-atom-link3::before{
+    content: "";
+    display: block;
+    background-repeat: no-repeat;
+    background-size: 35px;
+    background-image: url(../../assets/img/bullhorn.png);
+    width: 35px;
+    height: 35px;
+    transform: translate(-130% , 80%);
+
+}
+
+
+.header-atom-link4{
+    text-align: center;
+    color: #0a1530;
+    font-size: 14px;
+    font-weight: 600;
+    position: absolute;
+    transform: translate(-50% , -40%);
+}
+
+.header-atom-link4::before{
+    content: "";
+    display: block;
+    background-repeat: no-repeat;
+    background-size: 35px;
+    background-image: url(../../assets/img/brand.png);
+    width: 35px;
+    height: 35px;
+    transform: translate(-130% , 80%);
+
+}
+
+
+.header-atom-link5{
+    text-align: center;
+    color: #0a1530;
+    font-size: 14px;
+    font-weight: 600;
+    position: absolute;
+    transform: translate(-50% , -40%);
+}
+
+.header-atom-link5::before{
+    content: "";
+    display: block;
+    background-repeat: no-repeat;
+    background-size: 35px;
+    background-image: url(../../assets/img/montage.png);
+    width: 35px;
+    height: 35px;
+    transform: translate(-130% , 80%);
 
 }

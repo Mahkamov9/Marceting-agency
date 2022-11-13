@@ -1,6 +1,9 @@
 .navbar{
+    width: 100%;
     height: 70px;
     background-color: #0a1530;
+    position: fixed;
+    z-index: 1;
 }
 
 .nav-logo{

@@ -22,11 +22,14 @@ const Header = () =>{
                     </div>
                     <div>
                         <ul className='header-atom-list'>
-                            <li className='header-atom-item'><a className='header-atom-link' href="">Veb-sayt va ilovalarni ishlab chiqish</a></li>
-                            <li className='header-atom-item'><a className='header-atom-link' href="">Reklamarni o'rnatish va saqlash</a></li>
-                            <li className='header-atom-item'><a className='header-atom-link' href="">SMM reklamasi</a></li>
-                            <li className='header-atom-item'><a className='header-atom-link' href="">Brendlash</a></li>
-                            <li className='header-atom-item'><a className='header-atom-link' href="">Foto va videolarni ishlab chiqarish</a></li>
+                            <li className='header-atom-item'><a className='header-atom-link1' href="">Veb-sayt va ilovalarni ishlab chiqish</a></li>
+                            <li className='header-atom-item'><a className='header-atom-link2' href="">Reklamarni o'rnatish va saqlash</a></li>
+                        </ul>
+
+                        <ul className='header-atom-list'>
+                            <li className='header-atom-item'><a className='header-atom-link3' href="">SMM reklamasi</a></li>
+                            <li className='header-atom-item'><a className='header-atom-link4' href="">Brendlash</a></li>
+                            <li className='header-atom-item'><a className='header-atom-link5' href="">Foto va videolarni ishlab chiqarish</a></li>
                         </ul>
                     </div>
                 </div>
