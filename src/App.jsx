@@ -1,4 +1,6 @@
 import './App.css';
+
+import Aside from './components/aside/aside';
 import Footer from './components/footer/footer';
 import Header from './components/header/header';
 
@@ -11,6 +13,7 @@ function App() {
       <Navbar/>
       <Header/>
       <Section/>
+      <Aside/>
       <Footer/>
     </div>
   );

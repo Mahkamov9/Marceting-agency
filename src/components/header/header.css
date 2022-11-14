@@ -6,7 +6,7 @@
 }
 
 .header-subtitle{
-    padding-top: 13`0px;
+    padding-top: 130px;
     color: #0a1530;
     font-size: 80px;
     font-family: 'Gilroy',Arial,sans-serif;
@@ -142,7 +142,7 @@
     font-size: 14px;
     font-weight: 600;
     position: absolute;
-    transform: translate(-50% , -40%);
+    transform: translate(-40% , -40%);
 }
 
 .header-atom-link5::before{
