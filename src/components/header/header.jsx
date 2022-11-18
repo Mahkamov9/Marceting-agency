@@ -1,4 +1,5 @@
 import './header.css';
+import Contact from '../contact/contact';
 
 import fon from '../../assets/img/fon.png'
 import js from '../../assets/img/js.png'
@@ -20,7 +21,7 @@ const Header = () =>{
                         </h1>
                         <p className='header-title'>Biz 2021 yildan beri Internet-marketingning barcha <br/> mumkin bo'lgan  kanallari va vositalaridan foydalanamiz</p>
                     </div>
-                    <div>
+                     <div>
                         <ul className='header-atom-list'>
                             <li className='header-atom-item'><a className='header-atom-link1' href="">Veb-sayt va ilovalarni ishlab chiqish</a></li>
                             <li className='header-atom-item'><a className='header-atom-link2' href="">Reklamarni o'rnatish va saqlash</a></li>

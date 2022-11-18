@@ -41,7 +41,7 @@
 
 .header-atom-item{
     width: 357px;
-    height: 45px;
+    height: 40px;
     border-radius: 8px;
     background-color: #fff;
     margin: 0px 40px;
@@ -50,21 +50,21 @@
 .header-atom-link1{
     text-align: center;
     color: #0a1530;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 600;
     position: absolute;
-    transform: translate(-50% , -40%);
+    transform: translate(-46% , -25%);
 }
 
 .header-atom-link1::before{
     content: "";
     display: block;
     background-repeat: no-repeat;
-    background-size: 35px;
+    background-size: 18px;
     background-image: url(../../assets/img/ux.png);
-    width: 35px;
-    height: 35px;
-    transform: translate(-130% , 80%);
+    width: 18px;
+    height: 18px;
+    transform: translate(-120% , 120%);
 
 }
 
