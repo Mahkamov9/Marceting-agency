@@ -31,7 +31,7 @@ const Navbar= () => {
                     
                     <button onClick={() => setOpen(false) }
                     className="nav-text2" href="">Biz bilan bog'lanish</button>
-                <Contact modal={open} />
+                {/* <Contact modal={open} /> */}
                  </div>
             </div>
         </div>
